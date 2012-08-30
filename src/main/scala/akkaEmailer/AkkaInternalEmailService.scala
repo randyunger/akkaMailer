@@ -25,7 +25,6 @@ import scala.Some
  * Time: 12:26 PM
  */
 
-
 case class AkkaEmailMessage(msg: Array[Byte], log: Boolean, exceptionList: List[Exception])
 
 //use object instead of class so that ActorSystem handles are accessible across threads

@@ -1,5 +1,3 @@
-sbtPlugin := true
-
 name := "sc-email"
 
 organization := "com.ungersoft"

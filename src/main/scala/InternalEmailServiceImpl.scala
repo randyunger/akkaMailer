@@ -16,9 +16,6 @@ import java.io.{ByteArrayInputStream, ByteArrayOutputStream}
 import javax.mail.util.ByteArrayDataSource
 
 
-
-case class AkkaEmailMessage(msg: Array[Byte], log: Boolean, exceptionList: List[Exception])
-
 class InternalEmailServiceImpl extends InternalEmailServiceIfc {
 
   override val logger = LoggerFactory.getLogger("InternalEmailServiceImpl")
