@@ -12,7 +12,7 @@ Use application.conf, see the included example
 Usage
 ------
 val email = InternalEmailService.emailBuilder()
-        .withTo("randyu@skechers.com")
+        .withTo("toEmail@address.com")
         .withSubject("subject2")
         .withBody("Sent you an email")
         .withFormat("text/html")
